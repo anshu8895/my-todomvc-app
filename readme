@@ -1,0 +1,35 @@
+Test Cases for Todo Application
+This document outlines the test cases for each component in the Todo application.
+
+Main Component
+1.	Rendering Test: Ensure that the component renders without crashing.
+2.	Visibility Test: Ensure that the component is visible only when there are todos.
+3.	Todo Filtering Test: Test the filtering functionality based on the route. There should be three cases:
+4.	All todos are visible when the route is /.
+5.	Only active todos are visible when the route is /active.
+6.	Only completed todos are visible when the route is /completed.
+
+Item Component
+1.	Rendering Test: Ensure that the component renders without crashing.
+2.	Visibility Test: Ensure that the component is visible only when a todo is provided.
+3.	Toggle Test: Test the toggle functionality of a todo item. The item should switch between completed and active states.
+4.	Update Test: Test the update functionality of a todo item. The item's title should be updated correctly.
+5.	Removal Test: Test the removal functionality of a todo item. The item should be removed from the list.
+
+
+Footer Component
+1.	Rendering Test: Ensure that the component renders without crashing.
+2.	Visibility Test: Ensure that the component is visible only when there are todos.
+3.	Active Count Test: Test that the count of active todos is displayed correctly.
+4.	Filter Link Test: Test that the filter links update the route correctly. There should be three cases:
+⦁	The route should be / when the "All" link is clicked.
+⦁	The route should be /active when the "Active" link is clicked.
+⦁	The route should be /completed when the "Completed" link is clicked.
+        5. 	Clear Completed Test: Test the "Clear completed" button. It should remove all completed todos when clicked.
+
+
+Header Component
+1.	Rendering Test: Ensure that the component renders without crashing.
+2.	Todo Creation Test: Test the todo creation functionality. When a new todo title is entered and the Enter key is pressed, a new todo should be added to the list.
+3.	Input Clear Test: Test that the input field is cleared after a new todo is created.
+4.	Placeholder Test: Ensure that the input field displays the correct placeholder text.
