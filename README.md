@@ -1,5 +1,5 @@
 Test Cases for Todo Application
-  This document outlines the test cases for each component in the Todo application.
+  <br>This document outlines the test cases for each component in the Todo application.
 
 Footer Component
     1. Renders Footer component: This test checks if the Footer component is correctly rendered.
